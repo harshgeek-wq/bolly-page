@@ -1,0 +1,113 @@
+/* ============================================
+   HEADER
+============================================ */
+
+.header {
+  width: 100%;
+
+  position: absolute;
+
+  top: 0;
+  left: 0;
+
+  z-index: 1000;
+
+  padding: 25px 7%;
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+}
+
+/* ============================================
+   LOGO
+============================================ */
+
+.logo {
+  font-size: 2rem;
+
+  font-weight: 700;
+
+  color: var(--primary);
+
+  cursor: pointer;
+
+  letter-spacing: 0.5px;
+
+  user-select: none;
+}
+
+/* ============================================
+   NAVIGATION
+============================================ */
+
+.navbar ul {
+  display: flex;
+
+  align-items: center;
+
+  gap: 40px;
+}
+
+/* ============================================
+   NAV LINKS
+============================================ */
+
+.navbar a {
+  position: relative;
+
+  font-size: 1rem;
+
+  font-weight: 500;
+
+  color: var(--black);
+
+  transition: var(--transition);
+}
+
+/* ============================================
+   HOVER EFFECT
+============================================ */
+
+.navbar a::after {
+  content: "";
+
+  position: absolute;
+
+  left: 0;
+  bottom: -6px;
+
+  width: 0%;
+
+  height: 2px;
+
+  background: var(--primary);
+
+  transition: 0.3s;
+}
+
+.navbar a:hover {
+  color: var(--primary);
+}
+
+.navbar a:hover::after {
+  width: 100%;
+}
+
+/* ============================================
+   ACTIVE LINK
+============================================ */
+
+.navbar a.active {
+  color: var(--primary);
+}
+
+/* ============================================
+   MOBILE MENU
+============================================ */
+
+.menu-btn {
+  display: none;
+}

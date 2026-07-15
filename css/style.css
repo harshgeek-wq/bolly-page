@@ -1,0 +1,183 @@
+/* ============================================
+   GOOGLE FONT
+============================================ */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+
+/* ============================================
+   CSS RESET
+============================================ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/* ============================================
+   ROOT VARIABLES
+============================================ */
+
+:root {
+  --primary: #6c4cf1;
+  --primary-dark: #5534dd;
+
+  --secondary: #f5f2ff;
+
+  --white: #ffffff;
+
+  --black: #111111;
+
+  --gray: #666666;
+
+  --light-gray: #9c9c9c;
+
+  --heading-size: 72px;
+
+  --paragraph-size: 18px;
+
+  --transition: 0.35s ease;
+}
+
+/* ============================================
+   BODY
+============================================ */
+
+body {
+  font-family: "Poppins", sans-serif;
+
+  background: #f7f6fb;
+
+  color: var(--black);
+}
+
+/* ============================================
+   IMAGES
+============================================ */
+
+img {
+  display: block;
+
+  max-width: 100%;
+}
+
+/* ============================================
+   LINKS
+============================================ */
+
+a {
+  text-decoration: none;
+
+  color: inherit;
+}
+
+/* ============================================
+   BUTTONS
+============================================ */
+
+button {
+  border: none;
+
+  outline: none;
+
+  cursor: pointer;
+
+  font-family: inherit;
+}
+
+/* ============================================
+   LISTS
+============================================ */
+
+ul {
+  list-style: none;
+}
+
+/* ============================================
+   CONTAINER
+============================================ */
+
+.container {
+  width: min(1200px, 90%);
+
+  margin: auto;
+}
+
+/* ============================================
+   COMMON SECTION SPACING
+============================================ */
+
+section {
+  width: 100%;
+}
+
+/* ============================================
+   HEADINGS
+============================================ */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+
+  line-height: 1.1;
+}
+
+/* ============================================
+   PARAGRAPH
+============================================ */
+
+p {
+  color: var(--gray);
+
+  line-height: 1.8;
+}
+
+/* ============================================
+   UTILITIES
+============================================ */
+
+.flex {
+  display: flex;
+}
+
+.grid {
+  display: grid;
+}
+
+.center {
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+}
+
+/* ============================================
+   SCROLLBAR
+============================================ */
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary);
+
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #ececec;
+}
