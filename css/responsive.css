@@ -1,0 +1,169 @@
+/* ============================================
+   LARGE DESKTOP
+============================================ */
+
+@media (max-width: 1400px) {
+  .hero-content h1 {
+    font-size: 5.2rem;
+  }
+}
+
+/* ============================================
+   LAPTOP
+============================================ */
+
+@media (max-width: 1200px) {
+  .header {
+    padding: 25px 5%;
+  }
+
+  .hero {
+    padding: 120px 5% 60px;
+  }
+
+  .hero-content h1 {
+    font-size: 4.8rem;
+  }
+}
+
+/* ============================================
+   TABLET
+============================================ */
+
+@media (max-width: 992px) {
+  .header {
+    padding: 20px 5%;
+  }
+
+  .navbar ul {
+    gap: 25px;
+  }
+
+  .hero {
+    flex-direction: column;
+
+    justify-content: center;
+
+    text-align: center;
+
+    gap: 60px;
+  }
+
+  .hero-content {
+    width: 100%;
+
+    align-items: center;
+  }
+
+  .hero-content p {
+    max-width: 650px;
+  }
+
+  .hero-model {
+    width: 100%;
+  }
+
+  #bottle-container {
+    max-width: 500px;
+
+    height: 550px;
+  }
+}
+
+/* ============================================
+   MOBILE
+============================================ */
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+
+    gap: 20px;
+  }
+
+  .navbar ul {
+    gap: 18px;
+
+    flex-wrap: wrap;
+
+    justify-content: center;
+  }
+
+  .hero {
+    padding: 140px 6% 50px;
+  }
+
+  .hero-content h1 {
+    font-size: 3.8rem;
+  }
+
+  .hero-content p {
+    font-size: 1rem;
+  }
+
+  .buy-btn {
+    padding: 14px 30px;
+  }
+
+  #bottle-container {
+    height: 420px;
+  }
+}
+
+/* ============================================
+   SMALL MOBILE
+============================================ */
+
+@media (max-width: 576px) {
+  .logo {
+    font-size: 1.7rem;
+  }
+
+  .navbar a {
+    font-size: 0.9rem;
+  }
+
+  .hero-content h1 {
+    font-size: 3rem;
+
+    letter-spacing: -1px;
+  }
+
+  .badge {
+    font-size: 0.8rem;
+
+    padding: 8px 18px;
+  }
+
+  .hero-content p {
+    font-size: 0.95rem;
+  }
+
+  .buy-btn {
+    width: 100%;
+
+    justify-content: center;
+  }
+
+  #bottle-container {
+    height: 340px;
+  }
+}
+
+/* ============================================
+   EXTRA SMALL DEVICES
+============================================ */
+
+@media (max-width: 400px) {
+  .hero-content h1 {
+    font-size: 2.5rem;
+  }
+
+  .navbar ul {
+    gap: 12px;
+  }
+
+  #bottle-container {
+    height: 280px;
+  }
+}
